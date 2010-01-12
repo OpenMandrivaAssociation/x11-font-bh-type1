@@ -1,6 +1,6 @@
 Name: x11-font-bh-type1
-Version: 1.0.0
-Release: %mkrel 7
+Version: 1.0.1
+Release: %mkrel 1
 Summary: Xorg X11 font bh-type1
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -24,8 +24,8 @@ Xorg X11 font bh-type1
 %setup -q -n font-bh-type1-%{version}
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/Type1
+./configure --prefix=/usr --x-includes=%{_includedir}\
+	    --x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/Type1
 
 %make
 
