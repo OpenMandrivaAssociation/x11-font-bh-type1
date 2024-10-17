@@ -3,7 +3,7 @@ Version: 1.0.3
 Release: 3
 Summary: Xorg X11 font bh-type1
 Group: Development/X11
-URL: http://xorg.freedesktop.org
+URL: https://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-bh-type1-%{version}.tar.bz2
 # We may not modify the software!
 License: Bigelow & Holmes Font License
